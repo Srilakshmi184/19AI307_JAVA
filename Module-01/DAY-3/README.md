@@ -21,14 +21,32 @@ b.	If false, print 'num' followed by " is Non-Zero"
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SRILAKSHMI BH
+RegisterNumber: 212224100057
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+
+public class Demo
+{
+    public static void main(String[] args)
+    {
+       Scanner sc=new Scanner(System.in);
+       int num=sc.nextInt();
+        if(num==0)
+        System.out.println("Given number is Zero");
+        else
+        {
+        	 System.out.println(num+ " is Non-Zero");
+        }
+    }
+}
 
 
+```
 
 
 
@@ -36,6 +54,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+<img width="1008" height="454" alt="603525687-660c38cc-4c4c-49d9-94b2-ea5717c84570" src="https://github.com/user-attachments/assets/5b79f921-6f8d-4db1-927c-702316db3b2e" />
 
 
 ## RESULT:
